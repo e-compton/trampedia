@@ -1,14 +1,56 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   {% include head.html %}
 </head>
+
 <body>
   {% include header.html %}
 
-  <div class="uk-container">{{content}}</div>
+  <div class="uk-container">
 
-  <footer>
-  {% include footer.html %}
-</footer>
+    <div class="uk-section">{{content}}</div>
+
+    <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+      <div>
+        <div class="uk-card uk-card-primary uk-card-body">
+          <h3 class="uk-card-title">Coaching</h3>
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-card-primary uk-card-body">
+          <h3 class="uk-card-title">Judging</h3>
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-card-primary uk-card-body">
+          <h3 class="uk-card-title">Safety</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body">
+          <h3 class="uk-card-title">Latests Posts</h3>
+          {% for post in site.posts limit: 5 %}
+            <a href="{{post.url}}" class="fancy-link">{{ post.title }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body">
+          <h3 class="uk-card-title">Recent Pages</h3>
+          {% for page in (site.pages | sort: 'date') limit: 5 %}
+            <a href="{{page.url}}" class="fancy-link">{{ page.title }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </div>
 </body>
