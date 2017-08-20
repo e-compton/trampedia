@@ -17,6 +17,6 @@ url: https://e-compton.github.io/trampedia/
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-theme: minima
+theme: git-wiki
 plugins:
 - jekyll-feed
