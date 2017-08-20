@@ -13,7 +13,7 @@ description: 'A wiki for trampoline coaches.
 
 '
 baseurl: 
-url: https://e-compton.github.io/trampedia/
+url: https://trampedia.siteleaf.net
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
