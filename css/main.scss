@@ -2,3 +2,27 @@
 ---
 
 @import 'uikit';
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: linear-gradient(to right, #544dee, #8d59f0);
+}
+
+.fancy-link {
+  position: relative;
+  text-decoration: none;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  &:hover:before {
+    width: 100%;
+    visibility: visible;
+  }
+}
