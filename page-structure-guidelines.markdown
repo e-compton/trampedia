@@ -38,4 +38,10 @@ Descriptions and diagrams of technical points to look for.
 
 Prose here with tips for coaching.
 
+# In A Lesson Plan
+
+## Suggested Warm-Ups
+
+## Example Extract From A Lesson Plan
+
 ```   
