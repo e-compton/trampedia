@@ -8,7 +8,32 @@
 <body>
   {% include header.html %}
 
-  <div class="uk-container">{{content}}</div>
+  <div class="uk-container">
+
+    {% if page.infobox %}
+    <div uk-grid>
+      <div class="uk-width-expand@m">{{content}}</div>
+
+      <div class="uk-width-1-3@m">
+        <div class="uk-card uk-card-default uk-card-body">
+          <h2>{{ page.title }}</h2>
+
+          <table class="uk-table uk-table-small uk-table-divider">
+            {% for info in page.infobox %}
+              <tr>
+                <td>{{ info[0] }}</td>
+                <td>{{ info[1] }}</td>
+              </tr>
+            {% endfor %}
+          </table>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    {{content}}
+    {% endif %}
+
+  </div>
 
   <footer>
     {% include footer.html %}
