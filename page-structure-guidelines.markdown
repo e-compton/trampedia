@@ -44,14 +44,14 @@ Prose here with tips for coaching.
 
 A list of links to warm up activity articles.
 
-- [A dynamic stretch](/some_page_url)
-- [A static stretch](/some_page_url)
-- [A warm-up game](/some_page_url)
+- [A dynamic stretch](/some-page-url)
+- [A static stretch](/some-page-url)
+- [A warm-up game](/some-page-url)
 
 ## Example Extract From A Lesson Plan
 
 # See Also
 
-- [A related move](/some_page_url)
+- [A related move](/some-page-url)
 
 ```   
