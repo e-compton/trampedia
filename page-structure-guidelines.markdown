@@ -36,6 +36,6 @@ Descriptions and diagrams of technical points to look for.
 
 # Coaching Tips
 
-Prose here with tips about.
+Prose here with tips for coaching.
 
 ```   
