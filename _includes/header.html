@@ -3,11 +3,17 @@
     <div class="nav-overlay uk-navbar-left">
 
       <a href="/" class="uk-navbar-item uk-logo">
-        <img uk-svg="" src="/imgs/trampoline-lines-rounded.svg" style="height:100%;width: auto;"class="uk-margin-small-right" hidden="hidden">Trampedia
+        <img uk-svg="" src="/imgs/trampoline-lines-rounded.svg" style="height:100%;width: auto;"class="uk-margin-small-right" hidden="hidden">
+        {% if page.title %}
+          {{ page.title }}
+        {% else %}
+          Trampedia
+        {% endif %}
       </a>
 
+    </div>
 
-
+    <div class="nav-overlay uk-navbar-center">
     </div>
 
     <div class="nav-overlay uk-navbar-right">
