@@ -11,3 +11,5 @@ A seat landing is usually the first body landing which is taught to a gymnast.
 1. Demonstrate the move.
 2. Arrange the gymnast in the landing position, either on the floor or on the trampoline bed.
 3. ...
+
+# Execution
