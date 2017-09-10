@@ -7,7 +7,7 @@ layout: default
 
 Pages can have any structure as they are simply markdown (currently [kramdown flavour](https://kramdown.gettalong.org/quickref.html)) documents with some [YAML metadata (Front Matter)](https://jekyllrb.com/docs/frontmatter/). However, there are some guidelines for different kinds of articles in order to keep the style consistent across the wiki. This makes it easier to find the information which you are looking for when browsing.
 
-# Moves
+# Moves Template
 
 Pages for trampolining moves should follow the following markdown structure:
 
