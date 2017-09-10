@@ -13,3 +13,6 @@ A seat landing is usually the first body landing which is taught to a gymnast.
 3. ...
 
 # Execution
+
+- Hands placed on the bed, either side of the body, aligned with or slightly behind the hips.
+- Fingers together and facing forward.
