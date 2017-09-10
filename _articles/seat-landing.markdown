@@ -4,7 +4,7 @@ date: 2017-09-10 16:08:00 Z
 tags:
 - body landing
 - seat landing
-layout: default
+layout: article
 ---
 
 A seat landing is usually the first body landing which is taught to a gymnast.
