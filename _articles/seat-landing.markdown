@@ -4,6 +4,8 @@ date: 2017-09-10 16:08:00 Z
 tags:
 - body landing
 - seat landing
+infobox:
+  Prerequisites: None
 layout: article
 ---
 
