@@ -3,6 +3,8 @@ title: Page Structure Guidelines
 date: 2017-09-10 16:06:00 Z
 ---
 
+Pages can have any structure as they are simply markdown documents with some YAML metadata. However, there are some guidelines for different kinds of articles in order to keep the style consistent across the wiki. This makes it easier to find the information which you are looking for when browsing.
+
 # Moves
 
 Pages for trampolining moves should follow the following markdown structure:
