@@ -3,6 +3,10 @@
 
 @import 'uikit';
 
+body {
+    min-width: 250px;
+}
+
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: linear-gradient(to right, #544dee, #8d59f0);
 }
@@ -33,4 +37,10 @@
   &:hover {
     text-decoration: none;
   }
+}
+
+@media (max-width: 350px) {
+    .trampedia-logo {
+        display: none;
+    }
 }
