@@ -1,6 +1,8 @@
 ---
 title: Seat Landing
 date: 2017-09-10 16:08:00 Z
+tags:
+- body landing
 layout: default
 ---
 
