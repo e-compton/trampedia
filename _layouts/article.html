@@ -21,7 +21,7 @@
           <table class="uk-table uk-table-small uk-table-divider">
             {% for info in page.infobox %}
               <tr>
-                <td>{{ info[0] }}</td>
+                <td><b>{{ info[0] }}</b></td>
                 <td>{{ info[1] }}</td>
               </tr>
             {% endfor %}
@@ -35,7 +35,5 @@
 
   </div>
 
-  <footer>
-    {% include footer.html %}
-  </footer>
+  {% include footer.html %}
 </body>
