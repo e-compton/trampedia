@@ -17,9 +17,7 @@ Write a short introduction at the top of the article. This should be one or more
 # Progressions
     
 This section should contain one or more teaching progressions for the move.
-    
-## Main Progression
-    
+
 1. Demonstrate the move.
 2. Practice landing position.
 3. Practise with the mat.
