@@ -9,7 +9,7 @@ Pages can have any structure as they are simply markdown (currently [kramdown fl
 
 # Moves Template
 
-Pages for trampolining moves should follow the following markdown structure:
+Pages for trampolining moves should use the following markdown structure:
 
 ```markdown
 Write a short introduction at the top of the article. This should be one or more sentences summarising the page.
