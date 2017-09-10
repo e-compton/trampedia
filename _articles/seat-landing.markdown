@@ -16,4 +16,4 @@ A seat landing is usually the first body landing which is taught to a gymnast.
 
 - Hands placed on the bed, either side of the body, aligned with or slightly behind the hips.
 - Fingers together and facing forward.
-- Body bent at the waist to and angle of 45 degrees to the vertical.
+- Body bent at the waist with an angle of 45 degrees to the vertical.
