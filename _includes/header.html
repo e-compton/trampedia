@@ -1,42 +1,55 @@
-<nav class="uk-navbar-container uk-margin uk-light" uk-navbar>
+<div class="uk-offcanvas-content">
 
-    <div class="nav-overlay uk-navbar-left">
+    <nav class="uk-navbar-container uk-margin uk-light" uk-navbar>
 
-      <a href="/" class="uk-navbar-item uk-logo">
-        <img uk-svg="" src="/imgs/trampoline-lines-rounded.svg" class="trampedia-logo uk-margin-small-right" hidden="hidden">
-        {% if page.title %}
-          {{ page.title }}
-        {% else %}
-          Trampedia
-        {% endif %}
-      </a>
+        <div class="nav-overlay uk-navbar-left">
 
-    </div>
+            <a class="uk-navbar-toggle uk-icon" href="#offcanvas" uk-toggle uk-icon="icon: menu"></a>
 
-    <div class="nav-overlay uk-navbar-center">
-    </div>
+            <a href="/" class="uk-navbar-item uk-logo">
+                <img uk-svg="" src="/imgs/trampoline-lines-rounded.svg" class="trampedia-logo uk-margin-small-right" hidden="hidden">
+                {% if page.title %}
+                    {{ page.title }}
+                {% else %}
+                    Trampedia
+                {% endif %}
+            </a>
 
-    <div class="nav-overlay uk-navbar-right">
-      <ul class="uk-navbar-nav">
-      {% for node in site.pages %}
-        <li><a class="fancy-link" href='{{node.url}}'>{{node.title}}</a></li>
-      {% endfor %}
-      </ul>
-        <a class="uk-navbar-toggle" uk-search-icon uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
-
-
-    </div>
-
-    <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
-
-        <div class="uk-navbar-item uk-width-expand">
-            <form class="uk-search uk-search-navbar uk-width-1-1">
-                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
-            </form>
         </div>
 
-        <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+        <div class="nav-overlay uk-navbar-center">
+        </div>
 
-    </div>
+        <div class="nav-overlay uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                {% for node in site.pages %}
+                <li><a class="fancy-link" href='{{node.url}}'>{{node.title}}</a></li>
+                {% endfor %}
+            </ul>
+            <a class="uk-navbar-toggle" uk-search-icon uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
 
-</nav>
+
+        </div>
+
+        <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+
+            <div class="uk-navbar-item uk-width-expand">
+                <form class="uk-search uk-search-navbar uk-width-1-1">
+                    <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                </form>
+            </div>
+
+            <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+
+        </div>
+
+        <div id="offcanvas" uk-offcanvas>
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+            </div>
+        </div>
+
+    </nav>
+
