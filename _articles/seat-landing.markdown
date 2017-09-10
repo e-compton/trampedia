@@ -11,9 +11,9 @@ A seat landing is usually the first body landing which is taught to a gymnast.
 1. Demonstrate the move.
 2. Arrange the gymnast in the landing position, either on the floor or on the trampoline bed.
 3. Practice with a mat on the bed.
-4. Perform a seat landing with a mat pushed in for the landing only.
-5. Perform a seat landing with a spotter shadowing.
-6. Perform a seat landing without a mat.
+4. Perform seat landing with a mat pushed in for the landing only.
+5. Perform seat landing with a spotter shadowing.
+6. Perform seat landing without a mat.
 
 # Execution
 
