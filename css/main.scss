@@ -16,6 +16,23 @@ body {
   height: 100%;
 }
 
+.search-results {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.search-result>a {
+  color:white;
+}
+
+.search-result>p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .fancy-link {
   position: relative;
   text-decoration: none;
