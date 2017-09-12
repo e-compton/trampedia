@@ -46,7 +46,7 @@
       <div>
         <div class="uk-card uk-card-default uk-card-body">
           <h3 class="uk-card-title">Recent Pages</h3>
-          <u>
+          <ul>
               {% for page in (site.pages | sort: 'date') limit: 5 %}
               <li>
                   <a href="{{page.url}}" class="fancy-link">{{ page.title }}</a>
