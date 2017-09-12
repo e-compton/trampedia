@@ -32,7 +32,7 @@
 
     <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
       <div>
-        <div class="uk-card uk-card-default uk-card-body">
+        <div class="uk-card uk-card-default uk-card-body uk-background-muted">
           <h3 class="uk-card-title">Latests Posts</h3>
           <dl class="uk-description-list">
               {% for post in site.posts limit: 5 %}
@@ -47,7 +47,7 @@
         </div>
       </div>
       <div>
-        <div class="uk-card uk-card-default uk-card-body">
+        <div class="uk-card uk-card-default uk-card-body uk-background-muted">
           <h3 class="uk-card-title">Recent Pages</h3>
           <dl class="uk-description-list">
               {% for page in (site.articles | sort: 'date') limit: 5 %}

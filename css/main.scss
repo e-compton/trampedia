@@ -7,12 +7,21 @@ body {
     min-width: 250px;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
 .full-width {
   width: 100%;
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: linear-gradient(to right, #544dee, #8d59f0);
+}
+
+.uk-offcanvas-content {
+  min-height: 100%;
 }
 
 .trampedia-logo {
