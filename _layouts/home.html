@@ -34,17 +34,25 @@
       <div>
         <div class="uk-card uk-card-default uk-card-body">
           <h3 class="uk-card-title">Latests Posts</h3>
-          {% for post in site.posts limit: 5 %}
-            <a href="{{post.url}}" class="fancy-link">{{ post.title }}</a>
-          {% endfor %}
+          <ul>
+              {% for post in site.posts limit: 5 %}
+              <li>
+                <a href="{{post.url}}" class="fancy-link">{{ post.title }}</a>
+              </li>
+              {% endfor %}
+          </ul>
         </div>
       </div>
       <div>
         <div class="uk-card uk-card-default uk-card-body">
           <h3 class="uk-card-title">Recent Pages</h3>
-          {% for page in (site.pages | sort: 'date') limit: 5 %}
-            <a href="{{page.url}}" class="fancy-link">{{ page.title }}</a>
-          {% endfor %}
+          <ul>
+              {% for page in (site.pages | sort: 'date') limit: 5 %}
+              <li>
+                  <a href="{{page.url}}" class="fancy-link">{{ page.title }}</a>
+              </li>
+              {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
