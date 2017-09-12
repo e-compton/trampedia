@@ -32,7 +32,7 @@ function search(query) {
     var div = $('<div>', {class:'uk-card uk-card-body'});
     div.append(`<h3>No results</h3>`);
     $('.uk-search').attr('action', '');
-    $('.search-results').height('60px');
+    $('.search-results').height('92px');
     $('.search-results').append(div);
   }
 }
