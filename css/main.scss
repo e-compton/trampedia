@@ -7,6 +7,10 @@ body {
     min-width: 250px;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: linear-gradient(to right, #544dee, #8d59f0);
 }
@@ -28,6 +32,12 @@ body {
 }
 
 .search-result>p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+dd>p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

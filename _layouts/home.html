@@ -8,7 +8,7 @@
 <body>
   {% include header.html %}
 
-  <div class="uk-container">
+  <div class="uk-container uk-margin">
 
     <div class="uk-section">{{content}}</div>
 
@@ -34,25 +34,31 @@
       <div>
         <div class="uk-card uk-card-default uk-card-body">
           <h3 class="uk-card-title">Latests Posts</h3>
-          <ul>
+          <dl class="uk-description-list">
               {% for post in site.posts limit: 5 %}
-              <li>
+              <dt>
                 <a href="{{post.url}}" class="fancy-link">{{ post.title }}</a>
-              </li>
+              </dt>
+              <dd>
+                  {{post.excerpt}}
+              </dd>
               {% endfor %}
-          </ul>
+          </dl>
         </div>
       </div>
       <div>
         <div class="uk-card uk-card-default uk-card-body">
           <h3 class="uk-card-title">Recent Pages</h3>
-          <ul>
-              {% for page in (site.pages | sort: 'date') limit: 5 %}
-              <li>
+          <dl class="uk-description-list">
+              {% for page in (site.articles | sort: 'date') limit: 5 %}
+              <dt>
                   <a href="{{page.url}}" class="fancy-link">{{ page.title }}</a>
-              </li>
+              </dt>
+              <dd>
+                  {{page.excerpt}}
+              </dd>
               {% endfor %}
-          </ul>
+          </dl>
         </div>
       </div>
     </div>
