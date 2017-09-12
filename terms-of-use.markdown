@@ -1,6 +1,7 @@
 ---
 title: Terms of Use
 date: 2017-09-10 17:52:00 Z
+layout: default
 ---
 
 By using or editing the information on the Trampedia website you agree to the following terms and conditions.
