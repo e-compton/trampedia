@@ -1,6 +1,7 @@
 ---
 title: Cat-twist
 date: 2017-09-13 21:57:00 Z
+layout: article
 ---
 
 # Progressions
