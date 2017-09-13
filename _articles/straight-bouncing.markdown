@@ -12,7 +12,6 @@ layout: article
     
 # Common Challenges
     
-    
 # Coaching Tips
 
 # In A Lesson Plan
@@ -22,8 +21,5 @@ layout: article
 ## Example Extract From A Lesson Plan
 
 # See Also
-
-- [A related move](/some-page-url)
-- [Another related move](/some-page-url)
 
 # References
