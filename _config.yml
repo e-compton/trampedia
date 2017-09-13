@@ -19,11 +19,17 @@ defaults:
     type: articles
   values:
     layout: article
+    infobox:
+      Prerequisites: ''
+      FIG Notation: ''
+      Required Coach: ''
+      SUTL Level: ''
+
 email: your-email@example.com
 description: 'A wiki for trampoline coaches.
 
 '
-baseurl: 
+baseurl:
 url: https://trampedia.siteleaf.net
 twitter_username: jekyllrb
 github_username: jekyll

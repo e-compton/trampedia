@@ -40,7 +40,7 @@
                 <a href="{{post.url}}" class="fancy-link">{{ post.title }}</a>
               </dt>
               <dd>
-                  {{post.excerpt}}
+                  {{ page.excerpt | strip_html }}
               </dd>
               {% endfor %}
           </dl>
@@ -55,7 +55,7 @@
                   <a href="{{page.url}}" class="fancy-link">{{ page.title }}</a>
               </dt>
               <dd>
-                  {{page.excerpt}}
+                  {{ page.excerpt | strip_html }}
               </dd>
               {% endfor %}
           </dl>

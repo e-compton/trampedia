@@ -19,15 +19,17 @@ function search(query) {
   var results = idx.search(query);
   $('.search-results').html('');
   if (results.length != 0) {
+    page = window.store[results[0].ref];
+    $('.uk-search').attr('action', `${page.url}`);
     results.forEach(function (result) {
       page = window.store[result.ref];
-      $('.uk-search').attr('action', `${page.url}`);
       var div = $('<div>', {class:'uk-card uk-card-body search-result'});
       div.append(`<h3><a href="${page.url}">${page.title}</a></h3>`);
       div.append(`<p>${page.content.substring(0,144)}...</p>`);
-      $('.search-results').height('138px');
       $('.search-results').append(div);
     });
+    var height = results.length * 155;
+    $('.search-results').height(`${height}px`);
   } else {
     var div = $('<div>', {class:'uk-card uk-card-body'});
     div.append(`<h3>No results</h3>`);
