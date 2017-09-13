@@ -1,6 +1,7 @@
 ---
 title: Pike Jump
 date: 2017-09-13 21:54:00 Z
+layout: article
 ---
 
 # Progressions
