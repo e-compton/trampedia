@@ -13,6 +13,12 @@ collections:
     output: true
     Field name:
     - layout: article
+defaults:
+- scope:
+    path: ''
+    type: articles
+  values:
+    layout: article
 email: your-email@example.com
 description: 'A wiki for trampoline coaches.
 
@@ -26,11 +32,3 @@ theme: minima
 sass:
   sass_dir: _sass
   style: compressed
-  
-defaults:
-  -
-    scope:
-      path: ""
-      type: "articles"
-    values:
-      layout: "article"
