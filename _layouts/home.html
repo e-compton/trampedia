@@ -50,7 +50,7 @@
         <div class="uk-card uk-card-default uk-card-body uk-background-muted">
           <h3 class="uk-card-title">Recent Pages</h3>
           <dl class="uk-description-list">
-              {% for page in (site.articles | sort: 'date') limit: 5 %}
+              {% for page in site.articles limit: 5 %}
               <dt>
                   <a href="{{page.url}}" class="fancy-link">{{ page.title }}</a>
               </dt>

@@ -3,13 +3,31 @@
 
 @import 'uikit';
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-    min-width: 250px;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  min-width: 250px;
 }
 
 footer {
   position: absolute;
+  right: 0;
   bottom: 0;
+  left: 0;
+  // padding: 1rem;
 }
 
 .full-width {
