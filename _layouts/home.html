@@ -5,14 +5,30 @@
   {% include head.html %}
 </head>
 
-<body>
+<body class="uk-background-primary">
   {% include header.html %}
+
+  <div class="hero uk-light">
+      <h1>TRAMPEDIA</h1>
+      <p>The trampolining encyclopedia</p>
+      <video width="100%" loop controls autoplay class="connect-bg">
+        <source data-src="<?php echo get_template_directory_uri(); ?>/contact_Footer.mp4" type="video/mp4">
+      </video>
+      <video width=100%>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+  </div>
+
+  <script>
+  // $('.hero').addClass('dropped');
+  </script>
 
   <div class="uk-container uk-margin">
 
-    <div class="uk-section">{{content}}</div>
+    <!-- <div class="uk-section">{{content}}</div> -->
 
-    <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+
+    <!-- <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
       <div>
         <div class="uk-card uk-card-primary uk-card-body">
           <h3 class="uk-card-title">Coaching</h3>
@@ -28,7 +44,7 @@
           <h3 class="uk-card-title">Safety</h3>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
       <div>

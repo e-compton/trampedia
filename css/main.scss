@@ -35,7 +35,7 @@ footer {
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
-    background: linear-gradient(to right, #544dee, #8d59f0);
+    background-color: #1e87f0;
 }
 
 .uk-offcanvas-content {
@@ -97,4 +97,51 @@ dd {
     .trampedia-logo {
         display: none;
     }
+}
+
+.hero {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  background-color: black;
+}
+
+.hero:before {
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1e87f0;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero.dropped:before {
+  animation: 1s ease-in-out drop forwards;
+}
+
+@keyframes drop {
+  from {
+    height: 100%;
+    top: 0%;
+    opacity: 1;
+  }
+
+  90% {
+    height: 0%;
+    top: 100%;
+    opacity: 1;
+  }
+
+  to {
+    height: 0%;
+    top: 100%;
+    opacity: 0;
+  }
 }
